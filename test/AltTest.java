@@ -9,7 +9,7 @@
  * (C) Copyright 1997/8 Paul Austin <pda1@ukc.ac.uk>
  * University of Kent Canterbury
  ******************************************************************************/
-
+package org.jcsp.test;
 import org.jcsp.lang.*;
 import org.jcsp.plugNplay.*;
 

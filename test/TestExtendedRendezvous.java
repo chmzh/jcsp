@@ -171,17 +171,17 @@ public class TestExtendedRendezvous extends TestCase {
 	  }
 	  
 	  public void testNormalAny2OneChannelInt() {
-		  Any2OneChannelInt chan = ChannelInt.any2one();
+		  Any2OneChannelInt chan = ChannelInt.createAny2One();
 		  helper_testIntChannelOneWriter(chan.in(), chan.out());  
 	  }
 	  
 	  public void testNormalOne2AnyChannelInt() {
-		  One2AnyChannelInt chan = ChannelInt.one2any();
+		  One2AnyChannelInt chan = ChannelInt.createOne2Any();
 		  helper_testIntChannelOneWriter(chan.in(), chan.out());  
 	  }
 	  
 	  public void testNormalAny2AnyChannelInt() {
-		  Any2AnyChannelInt chan = ChannelInt.any2any();
+		  Any2AnyChannelInt chan = ChannelInt.createAny2Any();
 		  helper_testIntChannelOneWriter(chan.in(), chan.out());
 	  }
   
